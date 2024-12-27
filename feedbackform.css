@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container Styles */
+.feedback-container {
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+.feedback-container h1 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+form label {
+    font-size: 14px;
+    color: #333333;
+    margin-top: 10px;
+    display: block;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* Rating Styles */
+.rating {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.rating label {
+    text-align: center;
+    font-size: 14px;
+}
+
+.rating input[type="radio"] {
+    display: none;
+}
+
+.rating span {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #e0e0e0;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.rating input[type="radio"]:checked + span {
+    background: #007BFF;
+    color: white;
+}
+
+/* Button Styles */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

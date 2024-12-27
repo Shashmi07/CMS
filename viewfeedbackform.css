@@ -1,0 +1,60 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+/* Container Styles */
+.feedback-view-container {
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.feedback-view-container h1 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Feedback List Styles */
+.feedback-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Feedback Card Styles */
+.feedback-card {
+    background: #f9f9f9;
+    padding: 15px 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feedback-card h3 {
+    margin: 0 0 10px;
+    color: #007BFF;
+}
+
+.feedback-card p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555555;
+}
+
+.feedback-card strong {
+    color: #333333;
+}

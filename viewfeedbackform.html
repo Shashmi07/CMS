@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Feedback</title>
+    <link rel="stylesheet" href="viewfeedbackform.css">
+</head>
+<body>
+    <div class="feedback-view-container">
+        <h1>Session Feedback</h1>
+
+        <div class="feedback-list">
+            <!-- Example feedback cards (will be dynamically generated in production) -->
+            <div class="feedback-card">
+                <h3>Session: Introduction to AI</h3>
+                <p><strong>Participant:</strong> John Doe</p>
+                <p><strong>Email:</strong> john.doe@example.com</p>
+                <p><strong>Rating:</strong> ⭐⭐⭐⭐☆</p>
+                <p><strong>Comments:</strong> "Great session with valuable insights!"</p>
+            </div>
+
+            <div class="feedback-card">
+                <h3>Session: Deep Learning Techniques</h3>
+                <p><strong>Participant:</strong> Jane Smith</p>
+                <p><strong>Email:</strong> jane.smith@example.com</p>
+                <p><strong>Rating:</strong> ⭐⭐⭐⭐⭐</p>
+                <p><strong>Comments:</strong> "Very informative and engaging session."</p>
+            </div>
+
+            <!-- Add a placeholder for dynamically generated feedback -->
+            <div id="dynamic-feedback"></div>
+        </div>
+    </div>
+    <!-- Back Button -->
+    <div style="text-align: center; margin: 20px 0;">
+        <button onclick="history.back()" style="padding: 10px 20px; background-color: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">
+            Back
+        </button>
+    </div>
+</body>
+</html>
